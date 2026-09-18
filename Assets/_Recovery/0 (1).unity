@@ -1385,18 +1385,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6220722382061000652, guid: 254d641c3d5a8be46978b0ead7e1819f, type: 3}
-      propertyPath: hitColor.b
-      value: 0.5490196
-      objectReference: {fileID: 0}
-    - target: {fileID: 6220722382061000652, guid: 254d641c3d5a8be46978b0ead7e1819f, type: 3}
-      propertyPath: hitColor.g
-      value: 0.9333334
-      objectReference: {fileID: 0}
-    - target: {fileID: 6220722382061000652, guid: 254d641c3d5a8be46978b0ead7e1819f, type: 3}
-      propertyPath: hitColor.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7861067270051471599, guid: 254d641c3d5a8be46978b0ead7e1819f, type: 3}
       propertyPath: m_Name
       value: Target
@@ -3223,9 +3211,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ae4ce90648de554ab03efc5b8aee885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 6804616735543234381, guid: 2add262d7a0a4974ea5ca9d13a608570, type: 3}
+  bulletPrefab: {fileID: 7744379041553121089, guid: b8532a02d72ca8c4e8660beddf6b8ad5, type: 3}
   bulletSpawnPoint: {fileID: 782324717}
-  bulletMaxImpulse: 100
+  bulletMaxImpulse: 10
   maxChargeTime: 3
 --- !u!1 &1350182873
 GameObject:
